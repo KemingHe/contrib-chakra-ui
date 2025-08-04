@@ -24,7 +24,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   build-and-push:
-    if: github.repository == 'chakra-ui/chakra-ui'
+    # if: github.repository == 'chakra-ui/chakra-ui'
     runs-on: ubuntu-latest
     permissions:
       contents: read
