@@ -17,7 +17,7 @@ on:
 
 env:
   REGISTRY: ghcr.io # GitHub container registry
-  IMAGE_NAME: chakra-ui/chakra-ui/react-mcp  # Format: organization/repository/server, matching @chakra-ui/react-mcp on npmjs.com
+  IMAGE_NAME: keminghe/contrib-chakra-ui/react-mcp  # Format: organization/repository/server, matching @chakra-ui/react-mcp on npmjs.com
   SHOULD_PUSH: ${{ github.event_name == 'push' || inputs.push_to_registry }}
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
